@@ -1,12 +1,12 @@
 package com.appy.countrydetail;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.mukesh.countrypicker.Country;
 import com.mukesh.countrypicker.CountryPicker;
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements OnCountryPickerLi
         pickcountrybtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                countryPicker.showDialog(getFragmentManager());
+                countryPicker.canSearch();
             }
         });
     }

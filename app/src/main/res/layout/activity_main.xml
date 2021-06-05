@@ -7,7 +7,7 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-   <androidx.appcompat.widget.AppCompatButton
+   <Button
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:text="Pick Country"
@@ -24,12 +24,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-       <androidx.appcompat.widget.AppCompatTextView
+       <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Country Name "/>
-        <androidx.appcompat.widget.AppCompatTextView
+        <TextView
             android:id="@+id/selectedcountryname"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -39,12 +39,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <androidx.appcompat.widget.AppCompatTextView
+            <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text=" Country ISO code "/>
-            <androidx.appcompat.widget.AppCompatTextView
+            <TextView
                 android:id="@+id/Selectedcountryisocode"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -55,12 +55,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <androidx.appcompat.widget.AppCompatTextView
+            <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text=" Country Dial code "/>
-            <androidx.appcompat.widget.AppCompatTextView
+            <TextView
                 android:id="@+id/Selectedcountrydialcode"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -71,12 +71,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <androidx.appcompat.widget.AppCompatTextView
+            <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text=" Current Currency"/>
-            <androidx.appcompat.widget.AppCompatTextView
+            <TextView
                 android:id="@+id/Selectedcountrycurrency"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -87,7 +87,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <androidx.appcompat.widget.AppCompatTextView
+            <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -97,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 >
-                <androidx.appcompat.widget.AppCompatImageView
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@mipmap/ic_launcher"/>
